@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "1",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "10\n20\nvin shal\nshal vin\ntoto uju\n30\nuju toto",
+                    "output": "vin shal\nshal vin\ntoto uju\nuju toto",
+                    "type": "STDIN"
+                },
+                "score": "5",
+                "visible": "all"
+            }
+        ],
+        "system": [
+            {
+                "checkName": "Compilation",
+                "checkType": "compile",
+                "group": "system",
+                "penalty": "",
+                "rule": {
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "0",
+                "visible": "eval"
+            }
+        ]
+    },
+    "weightage": {
+        "blackboxtests": "0",
+        "system": "100"
+    },
+    "lastSaved": "20150101 170600"
+}

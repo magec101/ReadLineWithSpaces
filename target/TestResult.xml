@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="cxxtest" date="Thu Jan  1 11:36:15 2015" tests="1" errors="0" failures="0" time="0" >
+    <testcase classname="ReadLineWithSpacesTest" name="test_Unit_Test_1" line="15">
+        <warning line="16" >Test skipping is not supported without exception handling.</warning>
+    </testcase>
+</testsuite>

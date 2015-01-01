@@ -1,0 +1,9 @@
+[
+    {
+        "1": {
+            "input": "10\n20\nvin shal\nshal vin\ntoto uju\n30\nuju toto",
+            "output": "vin shal\nshal vin\ntoto uju\nuju toto",
+            "type": "STDIN"
+        }
+    }
+]
